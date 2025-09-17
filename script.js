@@ -1,7 +1,5 @@
 'use strict';
 
-document.addEventListener('DOMContentLoaded', () => {
-
   // ===================================================
   // スクロールで要素をフェードインさせる機能
   // ===================================================
@@ -22,5 +20,3 @@ document.addEventListener('DOMContentLoaded', () => {
   animatedElements.forEach(element => {
     observer.observe(element);
   });
-
-});
