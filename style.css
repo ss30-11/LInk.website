@@ -143,8 +143,7 @@ body {
 
 /* --- 機能紹介セクション --- */
 /* =================================================== */
-/* ▼▼▼ 機能紹介セクション（ここから置き換え）▼▼▼ */
-/* =================================================== */
+
 .feature-section {
   padding: 100px 50px;
   background-color: var(--background-color);
@@ -193,27 +192,24 @@ body {
   align-items: center;
   gap: 40px;
   text-align: left;
-
-  /* ▼▼▼ スクロールアニメーション用の3行を復活させる ▼▼▼ */
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-/* ▼▼▼ このルールを新しく追加、または復活させる ▼▼▼ */
-/* JSで .visible クラスが付いたら表示される */
+
 .feature-card.visible {
   opacity: 1;
   transform: translateY(0);
 }
 
 
-/* 偶数番目のカードのスタイル */
+
 .feature-card:nth-child(even) {
   flex-direction: row-reverse;
 }
 
-/* ★★★★★ ▲▲▲ ▲▲▲ ▲▲▲ ★★★★★ */
+
 
 
 .feature-image {
