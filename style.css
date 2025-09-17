@@ -62,7 +62,7 @@ body {
   color: var(--text-color-light);
   position: relative;
   overflow: hidden;
-  background-image: url('/main/images/full.jpg');
+  background-image: url('./main/images/full.jpg');
   background-size: cover;
   background-position: center;
 }
